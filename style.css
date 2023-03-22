@@ -42,7 +42,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100px;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -108,12 +109,11 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
+
   padding: 24px 0;
 }
 
 ul li a {
-
   display: flex;
   justify-content: center;
   align-items: center;
